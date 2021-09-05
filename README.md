@@ -8,8 +8,6 @@ Loosely based on scraps of information all over. It's surprisingly difficult to 
 ## The Servlet Specification
 The Jakarta EE servlet specification is linked here: https://jakarta.ee/specifications/servlet/
 
-A PDF of the specification is also [included here.](jakarta-servlet-spec-5.0.pdf)
+A PDF of the specification is also [included here](jakarta-servlet-spec-5.0.pdf).
 
 ### [The Web Application Archive (WAR) Format](war.md)
-
-### [The Web Application Deployment Descriptor (web.xml)](web.xml.md)
