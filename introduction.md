@@ -1,11 +1,11 @@
 # Introduction
-Servlets are basically independent components of a server that are capable of handling some of the requests that would be made to a server. When all the servlets are running together (usually in a servlet container), the host they're running on can then handle any valid request that would be made to the server, provided there's a servlet that can handle it.
+Jakarta EE is a collection of specifications that together describe a platform for building enterprise applications.
+
+The specifications describe servlets, JSPs (Jakarta Server Pages), and more.
 
 ## History
-Servlets were originally defined and specified as a part of Java EE (enterprise edition), which as included as a part of the original Java release.
+Jakarta EE is based off of Java EE, which was included in the original release of Java. Like Jakarta EE, Java EE was intended for building enterprise applications.
 
-The second release of Java (Java 2) split off the Java EE components into a separate bundle called J2EE.
+In the second release of Java, Java EE was separated from the standard Java release into something called "J2EE".
 
-Eventually, J2EE was given over to the Eclipse foundation and was renamed to [Jakarta EE](https://jakarta.ee/) for legal reasons. Thus, Jakarta EE is the open source continuation of the servlet specification.
-
-The Java code interface for servlets is described with Jakarta EE's `javax.servlet.Servlet` interface.
+Eventually, J2EE was given over to the Eclipse foundation and was renamed to Jakarta EE for legal reasons. Thus, Jakarta EE is the open source continuation of Java EE.

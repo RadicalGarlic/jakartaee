@@ -1,5 +1,5 @@
 # The Web Application Archive (WAR) Format
-The servlet specification includes the web application archive (WAR) format. This format specifies a particular directory and file structure that servlet web applications are expected to be in.
+The servlet specification includes the description of the web application archive (WAR) format. This format specifies a particular directory and file structure that servlet web applications are expected to be in.
 
 The WAR format is as follows.
 |Path|Blurb|
@@ -41,8 +41,8 @@ Below is an example web.xml file. A more complete reference is written up [here]
             // "name" should match a <param-name>
             String val = getServletContext().getInitParameter("name");
 
-         You can define any number of context initialization
-         parameters, including zero.
+        You can define any number of context initialization
+        parameters, including zero.
     -->
     <context-param>
         <param-name>SomeParam</param-name>
